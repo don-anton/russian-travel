@@ -1,0 +1,11 @@
+.lead {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+    max-width: 984px;
+    height: auto;
+    padding-top: 5%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

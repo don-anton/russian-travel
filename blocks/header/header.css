@@ -1,0 +1,9 @@
+.header {
+    margin: 0;
+    display: flex;
+    min-width: 320px;
+    max-height: 52px;
+    padding-top: 28px;
+    position: relative;
+    
+}

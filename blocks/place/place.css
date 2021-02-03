@@ -1,0 +1,8 @@
+.place {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, min-content);
+    grid-template-rows: repeat(2, min-content);
+    column-gap: 3%;
+    margin: 0;
+    padding-top: 5%;
+}
