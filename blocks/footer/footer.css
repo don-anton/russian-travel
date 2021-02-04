@@ -19,10 +19,16 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {    
+@media screen and (min-width: 690px) and (max-width: 768px) {    
     .footer {
         display: flex;
         flex-direction: row;
+    }
+}
+@media screen and (min-windh: 426px) and (max-width: 690px) {
+    .footer {
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -37,5 +43,6 @@
     margin: 0;
     margin-top: 5%;
     min-width: 320px;
-    position: relative;  
+    position: relative;
+    
 }

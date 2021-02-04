@@ -25,7 +25,7 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
     
     .lead__subtitle {
         font-weight: normal;
@@ -44,6 +44,7 @@
 }
 
 .lead__subtitle {
+    object-fit: contain;
     color:white;
     min-width: 288px;
     max-width: 640px;
@@ -52,5 +53,7 @@
     margin-top: 3%;
     margin-left: auto;
     margin-right: auto;
+
+    
 }
 

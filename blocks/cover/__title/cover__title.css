@@ -1,8 +1,8 @@
 @media screen and (min-width: 1280px) {    
     .cover__title {
         font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
+        font-size: 4.5rem;
+        line-height: 1;
         position: absolute;
         top: 245px;
     }
@@ -11,8 +11,8 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover__title {
          font-weight: 900;
-         font-size: 72px;
-         line-height: 76px;
+         font-size: 4.5rem;
+         line-height: 1;
          position: absolute;
          top: 245px;
      }
@@ -21,28 +21,38 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover__title {
            font-weight: 900;
-           font-size: 72px;
-           line-height: 76px;
+           font-size: 4.5rem;
+           line-height: 1;
            position: absolute;
            top: 195px;
        }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {    
+@media screen and (min-width: 504px) and (max-width: 768px) {    
     .cover__title {
         font-weight: 900;
-        font-size: 72px;
-        line-height: 76px;
+        font-size: 4.5rem;
+        line-height: 1;
         position: absolute;
         top: 115px;
+    }
+}
+@media screen and (min-width: 426px) and (max-width: 504px){
+    .cover__title {
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1;
+        position: absolute;
+        top: 30%;
+
     }
 }
 
 @media screen and (max-width: 425px) {    
     .cover__title {
             font-weight: 900;
-            font-size: 32px;
-            line-height: 35px;
+            font-size: 2rem;
+            line-height: 1.1;
             position: absolute;
             top: 32px;
         }
