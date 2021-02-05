@@ -2,6 +2,26 @@
     margin: 0;
     margin-left: auto;
     margin-right: auto;
-    min-width: 320px;
-    max-width: 984px;
+    padding-top: 12px;
+    width: 984px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .places {
+        width: 928px;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .places {
+        padding-top: 15px;
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places {
+        padding-top: 64px;
+        width: 320px;
+    }
 }

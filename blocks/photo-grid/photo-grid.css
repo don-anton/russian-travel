@@ -1,14 +1,36 @@
 .photo-grid {
-    margin: 0%;
-    position: relative;
-    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 284px);
+    gap: 16px;
+    margin: 0;
+    padding-top: 92px;
     margin-left: auto;
     margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(213px, 264px));
-    grid-template-rows: repeat(auto-fit, 1fr);
-    column-gap: 16px;
-    row-gap: 16px;
-    max-width: 1184px;
-    height: auto;
+    width: 1184px;
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .photo-grid {
+        width: 928px;
+        grid-template-columns: repeat(auto-fit, 300px);
+        gap: 14px;
+    }    
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .photo-grid {
+        width: 720px;
+        padding-top: 88px;
+        grid-template-columns: repeat(auto-fit, 352px);
+    }    
+}
+
+@media screen and (max-width: 425px) {
+    .photo-grid {
+        width: 288px;
+        padding-top: 64px;
+        grid-template-columns: repeat(auto-fit, 288px);
+        gap: 12px;
+    }
 }
