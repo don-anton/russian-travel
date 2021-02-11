@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 640px;
+    max-width: 640px;
     height: 72px;
     font-weight: normal;
     font-size: 1.8em;
@@ -14,7 +14,7 @@
 
 @media screen and (max-width: 425px) {
     .lead__subtitle {
-        width: 288px;
+        max-width: 288px;
         height: 40px;
         font-weight: normal;
         font-size: 1em;

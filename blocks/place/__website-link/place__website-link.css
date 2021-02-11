@@ -5,7 +5,6 @@
     font-weight: normal;
     z-index: 1;
     margin: 0;
-    margin-top: 12px;
     transition: 0.5s;
 }
 
@@ -13,7 +12,7 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 620px) {
     .place__website-link {
         margin-left: 16px;
     }

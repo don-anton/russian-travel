@@ -3,21 +3,21 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 984px;
+    max-width: 984px;
     padding-top: 92px;
    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
-        width: 928px;
+        max-width: 928px;
         
     }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .intro {
-        width: 720px;
+        max-width: 720px;
         padding-top: 88px;
         margin-left: 24px;
         margin-right: 24px;
@@ -26,7 +26,7 @@
 
 @media screen and (max-width: 425px) {
     .intro {
-        width: 288px;
+        max-width: 288px;
         padding-top: 64px;
         margin-left: 16px;
         margin-right: 16px;

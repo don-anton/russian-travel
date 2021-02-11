@@ -4,7 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     color: white;
-    width: 360px;
+    max-width: 360px;
     height: 66px;
     justify-items: center;
     text-align: center;
@@ -12,36 +12,17 @@
     font-size: 18px;
     line-height: 22px;
     position: relative;
+    text-decoration: none;
+    transition: 0.5s;
 }
 
-@media screen and (min-width: 1280px) {    
-    .cover__subtitle {
-        
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
-    .cover__subtitle {
-      
-      }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .cover__subtitle {
-       
-       }
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {    
-    .cover__subtitle {
-        
-       }
+.cover__subtitle:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {    
     .cover__subtitle {
-        width: 288px;
-        height: 48px;
+        max-width: 288px;
         font-weight: normal;
         font-size: 14px;
         line-height: 16px;

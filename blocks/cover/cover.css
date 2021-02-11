@@ -9,11 +9,13 @@
     background-repeat: no-repeat;
     width: 100%;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 @media screen and (min-width: 1280px) {
     .cover {
-        width: 1184px;
+        max-width: 1184px;
         height: 740px;
         padding-top: 245px;
     }
@@ -21,7 +23,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
     .cover {
-        width: 1184px;
+        max-width: 1184px;
         height: 740px;
         padding-top: 245px;
     }
@@ -29,7 +31,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .cover {
-        width: 1024px;
+        max-width: 1024px;
         height: 640px;
         padding-top: 195px;
     }
@@ -37,7 +39,7 @@
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
     .cover {
-        width: 768px;
+        max-width: 768px;
         height: 480px;
         margin-top: 90px;
         padding-top: 115px;
@@ -46,7 +48,7 @@
 
 @media screen and (max-width: 425px) {
     .cover {
-        width: 320px;
+        max-width: 425px;
         height: 200px;
         margin-top: 66px;
         padding-top: 33px;

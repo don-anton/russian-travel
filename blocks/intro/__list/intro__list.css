@@ -5,4 +5,9 @@
     list-style-type: none;
     font-size: 12px;
     line-height: 18px;
+    font-weight: normal;
+}
+
+span {
+    font-weight: 700;
 }

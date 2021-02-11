@@ -8,32 +8,37 @@
     flex-direction: row;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1185px) {
     .footer {
-        width: 1184px;
+        max-width: 1184px;
+        justify-content: space-between;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1184px) {
     .footer {
-        width: 928px;
+        max-width: 928px;
+        justify-content: space-between;
+        padding-left: 48px;
+        padding-right: 48px;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {    
+@media screen and (min-width: 700px) and (max-width: 768px) {    
     .footer {
-        width: 720px;
+        max-width: 720px;
         padding-top: 88px;
+        justify-content: space-between;
+        padding-left: 24px;
+        padding-right: 24px;
     }         
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 700px) {
     .footer {
-        width: 186px;
-        height: 310px;
+        max-width: 186px;
         margin: 0;
         padding-top: 64px;
-        padding-left: 16px;
         display: flex;
         flex-direction: column;
     }

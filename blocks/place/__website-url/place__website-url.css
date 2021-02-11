@@ -5,6 +5,7 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 170%;
+    margin-bottom: 12px;
 }
 
 @media screen and (max-width: 768px) {
@@ -13,9 +14,8 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 620px) {
     .place__website-url {
         margin-left: 16px;
-        margin-top: 32px;
     }
 }
